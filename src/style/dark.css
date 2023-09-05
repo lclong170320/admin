@@ -1,0 +1,64 @@
+.app.dark {
+  background-color: rgb(54, 54, 54);
+  color: rgb(156, 156, 156);
+  color: white;
+}
+.app.dark .navbar {
+  background-color: rgb(54, 54, 54);
+  border-bottom: 1px solid white;
+  color: white;
+}
+.app.dark .navbar li span {
+  color: white;
+}
+.app.dark .navbar .search {
+  background-color: rgb(54, 54, 54);
+  color: white;
+}
+
+.app.dark .sidebar {
+  background-color: rgb(54, 54, 54);
+  border-right: 1px solid white;
+  color: white;
+}
+
+.app.dark .sidebar .center ul li{
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  /* con cho chuot hinh ban tay */
+  cursor: pointer;
+  border-bottom: 1px solid white;
+}
+
+.app.dark .sidebar .center ul li span {
+  color: white;
+}
+
+.pagination {
+  --bs-pagination-bg: none;
+}
+
+.table {
+  --bs-table-color: none;
+}
+
+.accordion {
+  --bs-accordion-bg: none;
+}
+
+.app.dark .accordion-item {
+  color: white;
+}
+
+.app.dark .accordion-item:first-of-type .accordion-button {
+  color: white;
+}
+
+.app.dark .accordion-item:last-of-type .accordion-button.collapsed {
+  color: white;
+}
+
+.app.dark .buttonBacck {
+  color: white !important;
+}

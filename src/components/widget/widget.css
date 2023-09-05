@@ -1,0 +1,39 @@
+.widget {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 10px;
+    /* tạo khung và độ bóng cho khung */
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    border-radius: 10px;
+    height: 100px;
+    border: 1px solid rgb(24, 24, 24);
+}
+
+.widget .left, .right {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.widget .left .title {
+    font-size: 14px;
+    font-weight: bold;
+}
+.widget .left .content {
+    font-size: 24px;
+    font-weight: 300;
+}
+.widget .left .link{
+    width: max-content;
+    font-size: 14px;
+    font-weight: 300;
+    border-top: 2px sold gray;
+}
+.widget .right .icon {
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    align-self: flex-end;
+}
